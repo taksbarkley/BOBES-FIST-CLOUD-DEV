@@ -1,0 +1,47 @@
+/*Universal Selector*/
+* {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+
+body{
+    background-color: bisque;
+}
+
+/*Type Selector*/
+h1, p {
+	font-family: "Montserrat", sans-serif;
+}
+
+/*ID Selector*/
+#profile {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* class selector */
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-tiktok, .fa-youtube{
+    font-size: 25px;
+    color: white;
+    margin: 0 10px 0 10px;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-tiktok:hover, .fa-youtube:hover{
+    color: yellow
+}
+
+#landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
